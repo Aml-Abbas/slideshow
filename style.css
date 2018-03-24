@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 400px;
+    position: relative;
+}
+.ig {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.left:hover{
+box-shadow: 2px 0px 2px 0px white;
+}
+.right:hover{
+    box-shadow: -2px 0px 2px 0px white;
+    }
+.btn{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    top: 185px;
+    border: none;
+    margin: 10px;
+   
+}
+p{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    padding: 20px;
+}
+.right{
+    float: right;
+    position: relative;
+}
+
+h2{
+   
+    -webkit-animation: mymove 30s infinite;
+    animation: mymove 30s infinite;
+    position: relative;
+    float: right;
+   
+}
+.black{
+    background-color: black;
+    width: 100%;
+}
+@-webkit-keyframes mymove {
+    from {right: 0px;}
+    to {right: 100%;}
+}
+
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 100%;}
+}
